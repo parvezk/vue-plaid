@@ -18,9 +18,7 @@ export default {
     return {};
   },
   coumputed: {},
-  methods: {
-
-  }
+  methods: {}
 };
 </script>
 
@@ -47,8 +45,5 @@ export default {
     display: inline-block;
     font-weight: 500;
     color: #033156;
-}
-.balance {
-
 }
 </style>
