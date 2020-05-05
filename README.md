@@ -1,5 +1,5 @@
-# vue-node
-
+# vue-plaid
+A vue.js client-side application with plaid link and API integration.
 ## Project setup
 ```
 npm install
