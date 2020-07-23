@@ -1,7 +1,5 @@
 # Vue-Plaid
-A vue.js client-side application with plaid link and API integration.
-
-This is a reference application demonstrating an end-to-end [plaid] integration, focussed on linking items and fetching transaction data.
+This is a reference Vue.js application demonstrating an end-to-end [plaid] integration, focussed on linking items and fetching transaction data.
 
 ## Getting Started
 
@@ -12,22 +10,22 @@ This is a reference application demonstrating an end-to-end [plaid] integration,
     ```
 
 2. Project setup
-```
-npm install
-```
+    ```
+    npm install
+    ```
 
 3. Generate payment token in the sandbox environment / initiate payments
-```
-PLAID_CLIENT_ID='CLIENT_ID' \
-PLAID_SECRET='SECRET' \
-PLAID_PUBLIC_KEY='PUBLIC_KEY' \
-PLAID_ENV='sandbox' \
-PLAID_PRODUCTS='payment_initiation' \
-PLAID_COUNTRY_CODES='US' \
-node index.js
+    ```
+    PLAID_CLIENT_ID='CLIENT_ID' \
+    PLAID_SECRET='SECRET' \
+    PLAID_PUBLIC_KEY='PUBLIC_KEY' \
+    PLAID_ENV='sandbox' \
+    PLAID_PRODUCTS='payment_initiation' \
+    PLAID_COUNTRY_CODES='US' \
+    node index.js
 
-# Go to http://localhost:8000
-```
+    # Go to http://localhost:8000
+    ```
 
 4. Exchanging the public token for an access token
 
