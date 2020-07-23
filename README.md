@@ -7,7 +7,7 @@ This is a reference application demonstrating an end-to-end [plaid] integration,
 
 1. Clone the repo.
     ```shell
-    git clone https://github.com/********/vue-plaid.git
+    git clone https://github.com/parvezk/vue-plaid.git
     cd pattern
     ```
 
